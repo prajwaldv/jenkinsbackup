@@ -1,0 +1,27 @@
+Started by GitHub push by prajwaldv
+Running as SYSTEM
+Building remotely on [8mha:////4FKqJJppqJbpjMGHlQSVAUl71t20fPkT6LHS0thYJyvLAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6wTmJZam6BoYAt39M38cAAAA=[0mSlave-01 (CJob) in workspace /home/jenkins-slave-01/workspace/BuildJob
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/prajwaldv/devops.git
+ > git init /home/jenkins-slave-01/workspace/BuildJob # timeout=10
+Fetching upstream changes from https://github.com/prajwaldv/devops.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/prajwaldv/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/prajwaldv/devops.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/prajwaldv/devops.git # timeout=10
+Fetching upstream changes from https://github.com/prajwaldv/devops.git
+ > git fetch --tags --progress -- https://github.com/prajwaldv/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 971ed353fd9fc6db6271d99718c685c7031565d2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 971ed353fd9fc6db6271d99718c685c7031565d2
+Commit message: "test the chnages"
+First time build. Skipping changelog.
+[BuildJob] $ /bin/sh -xe /tmp/jenkins4251783193738495403.sh
++ cd /home/ec2-user/devops/
+/tmp/jenkins4251783193738495403.sh: line 2: cd: /home/ec2-user/devops/: Not a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,7 @@
+Started by user [8mha:////4PdXNobOnHPN5eftp1/iZRnKfBO87+ogMnk6d6vic5aHAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgY+/dLi1CL9gqLErJLU4hIAhwFhy8MAAAA=[0mPrajwal
+Running as SYSTEM
+Building remotely on [8mha:////4AGyp/+CvRWKPgHv5FvxPBXRk+aOeDzFShXIkbPhTsCeAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6xTmJZam6BkYAW0wzv8cAAAA=[0mslave-02 (Java) in workspace /home/jenkins-slave-02/workspace/test slave 2
+[test slave 2] $ /bin/sh -xe /tmp/jenkins4071005090412345681.sh
++ echo 'hi slave 2'
+hi slave 2
+Finished: SUCCESS

@@ -1,0 +1,32 @@
+Started by user [8mha:////4PdXNobOnHPN5eftp1/iZRnKfBO87+ogMnk6d6vic5aHAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgY+/dLi1CL9gqLErJLU4hIAhwFhy8MAAAA=[0mPrajwal
+Running as SYSTEM
+Building remotely on [8mha:////4FKqJJppqJbpjMGHlQSVAUl71t20fPkT6LHS0thYJyvLAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6wTmJZam6BoYAt39M38cAAAA=[0mSlave-01 (CJob) in workspace /home/jenkins-slave-01/workspace/first1build
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/prajwaldv/devops.git
+ > git init /home/jenkins-slave-01/workspace/first1build # timeout=10
+Fetching upstream changes from https://github.com/prajwaldv/devops.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/prajwaldv/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/prajwaldv/devops.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/prajwaldv/devops.git # timeout=10
+Fetching upstream changes from https://github.com/prajwaldv/devops.git
+ > git fetch --tags --progress -- https://github.com/prajwaldv/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fb9168f8229398abd4251448c8b0c67786b4413e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fb9168f8229398abd4251448c8b0c67786b4413e
+Commit message: "sdsa"
+First time build. Skipping changelog.
+[first1build] $ /bin/sh -xe /tmp/jenkins2120966218784902169.sh
++ pwd
+/home/jenkins-slave-01/workspace/first1build
++ ls
+fib.c
+leap.c
+main.c
+makefile
+sumn.c
+Finished: SUCCESS

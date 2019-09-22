@@ -1,0 +1,11 @@
+Started on Sep 21, 2019 10:00:56 AM
+Started by event from 140.82.115.244 ⇒ http://18.217.123.178:8080/github-webhook/ on Sat Sep 21 10:00:56 UTC 2019
+Using strategy: Default
+[poll] Last Built Revision: Revision adec4069daa0d2f91af4b04e1f857ff8948523bc (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/prajwaldv/devops.git # timeout=10
+Found 1 remote heads on https://github.com/prajwaldv/devops.git
+[poll] Latest remote head revision on refs/heads/master is: 971ed353fd9fc6db6271d99718c685c7031565d2
+Done. Took 0.1 sec
+Changes found

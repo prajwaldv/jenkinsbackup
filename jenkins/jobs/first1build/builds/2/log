@@ -1,0 +1,28 @@
+Started by GitHub push by prajwaldv
+Running as SYSTEM
+Building remotely on [8mha:////4FKqJJppqJbpjMGHlQSVAUl71t20fPkT6LHS0thYJyvLAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6wTmJZam6BoYAt39M38cAAAA=[0mSlave-01 (CJob) in workspace /home/jenkins-slave-01/workspace/first1build
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/prajwaldv/devops.git # timeout=10
+Fetching upstream changes from https://github.com/prajwaldv/devops.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/prajwaldv/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision adec4069daa0d2f91af4b04e1f857ff8948523bc (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f adec4069daa0d2f91af4b04e1f857ff8948523bc
+Commit message: "test file"
+ > git rev-list --no-walk fb9168f8229398abd4251448c8b0c67786b4413e # timeout=10
+[first1build] $ /bin/sh -xe /tmp/jenkins4508711117206880296.sh
++ pwd
+/home/jenkins-slave-01/workspace/first1build
++ ls
+fib.c
+leap.c
+main.c
+makefile
+sumn.c
+test.c
+Finished: SUCCESS

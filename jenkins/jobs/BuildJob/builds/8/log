@@ -1,0 +1,29 @@
+Started by user [8mha:////4PdXNobOnHPN5eftp1/iZRnKfBO87+ogMnk6d6vic5aHAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgY+/dLi1CL9gqLErJLU4hIAhwFhy8MAAAA=[0mPrajwal
+Running as SYSTEM
+Building remotely on [8mha:////4FKqJJppqJbpjMGHlQSVAUl71t20fPkT6LHS0thYJyvLAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6wTmJZam6BoYAt39M38cAAAA=[0mSlave-01 (CJob) in workspace /home/jenkins-slave-01/workspace/BuildJob
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/prajwaldv/devops.git # timeout=10
+Fetching upstream changes from https://github.com/prajwaldv/devops.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/prajwaldv/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 78628584a0a352d7b2fdcf28fcabbccdd5b2c44d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 78628584a0a352d7b2fdcf28fcabbccdd5b2c44d
+Commit message: "test12 the build"
+ > git rev-list --no-walk 78628584a0a352d7b2fdcf28fcabbccdd5b2c44d # timeout=10
+[BuildJob] $ /bin/sh -xe /tmp/jenkins1711356570654742179.sh
++ pwd
++ cd
++ make OUT.exe
+make: 'OUT.exe' is up to date.
++ pwd
+/home/jenkins-slave-01/workspace/BuildJob
++ cp OUT.exe /home/jenkins-slave-01/
++ echo 'Succefull Built load'
+Succefull Built load
+Triggering a new build of [8mha:////4HzKdcmgXRSj3Bt2+bqvs4jSFGTqVLrhm1XhAQDeY+VIAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH2X1IKc/EovIAsA61fyXMQAAAA=[0mDeployJob
+Finished: SUCCESS

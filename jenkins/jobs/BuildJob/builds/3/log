@@ -1,0 +1,40 @@
+Started by GitHub push by prajwaldv
+Running as SYSTEM
+Building remotely on [8mha:////4FKqJJppqJbpjMGHlQSVAUl71t20fPkT6LHS0thYJyvLAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6wTmJZam6BoYAt39M38cAAAA=[0mSlave-01 (CJob) in workspace /home/jenkins-slave-01/workspace/BuildJob
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/prajwaldv/devops.git # timeout=10
+Fetching upstream changes from https://github.com/prajwaldv/devops.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/prajwaldv/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cc9fe4a94e9d3fa897186db7c66c47a4b6e43df1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cc9fe4a94e9d3fa897186db7c66c47a4b6e43df1
+Commit message: "test1 the build"
+ > git rev-list --no-walk 1c26dc97f23a230a661b166406d6220638ff79db # timeout=10
+[BuildJob] $ /bin/sh -xe /tmp/jenkins1596978714402299239.sh
++ pwd
++ cd
++ make OUT.exe
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:5:2: warning: implicit declaration of function ‘leap’ [-Wimplicit-function-declaration]
+  leap();
+  ^~~~
+main.c:6:2: warning: implicit declaration of function ‘sumn’ [-Wimplicit-function-declaration]
+  sumn();
+  ^~~~
+main.c:7:2: warning: implicit declaration of function ‘fib’ [-Wimplicit-function-declaration]
+  fib();
+  ^~~
+gcc -c leap.c
+gcc -c sumn.c
+gcc -c fib.c
+gcc -o OUT.exe main.o leap.o sumn.o fib.o
++ echo 'Succefull Built load'
+Succefull Built load
+Triggering a new build of [8mha:////4HzKdcmgXRSj3Bt2+bqvs4jSFGTqVLrhm1XhAQDeY+VIAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH2X1IKc/EovIAsA61fyXMQAAAA=[0mDeployJob
+Finished: SUCCESS
